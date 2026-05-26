@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Jamie Bag Charm</title>
+  <meta name="description" content="Contact Jamie Bag Charm for custom leather bag charm inquiries. Get a free quote within 24 hours.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">J</div>
+        Jamie Bag Charm
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="customization.html">Customization</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html" class="btn btn-primary nav-cta">Get Quote</a>
+      </div>
+      <button class="mobile-toggle" onclick="toggleMobile()">☰</button>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> <span>›</span> <span>Contact</span>
+      </div>
+      <h1>Contact Us</h1>
+      <p>Get in touch for custom leather bag charm inquiries. We respond within 24 hours.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact-section section-padding">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <h3>Let's Start a Conversation</h3>
+        <p>Whether you have a finished design ready for production or just an idea you'd like to explore, we're here to help. Fill out the form with your requirements and we'll provide a detailed quote within 24 hours.</p>
+        
+        <div class="contact-detail">
+          <div class="contact-detail-icon">📧</div>
+          <div class="contact-detail-text">
+            <strong>Email</strong>
+            <span>info@jamiebagcharm.com</span>
+          </div>
+        </div>
+        
+        <div class="contact-detail">
+          <div class="contact-detail-icon">💬</div>
+          <div class="contact-detail-text">
+            <strong>WhatsApp</strong>
+            <span>+1 (555) 123-4567</span>
+          </div>
+        </div>
+        
+        <div class="contact-detail">
+          <div class="contact-detail-icon">🌐</div>
+          <div class="contact-detail-text">
+            <strong>Working Hours</strong>
+            <span>Monday - Friday: 9:00 AM - 6:00 PM (CST)</span>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon">🌍</div>
+          <div class="contact-detail-text">
+            <strong>Global Shipping</strong>
+            <span>We ship to 50+ countries worldwide via FedEx, DHL & UPS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required>
+            </div>
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" name="company" placeholder="Your Brand Inc.">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 555 123 4567">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="product">Product Interest *</label>
+            <select id="product" name="product" required>
+              <option value="">Select a product category...</option>
+              <option value="flower">Leather Flower Charms</option>
+              <option value="animal">Animal Shape Charms</option>
+              <option value="logo">Logo & Monogram Charms</option>
+              <option value="tassel">Tassel & Fringe Charms</option>
+              <option value="keychain">Keychain Bag Charms</option>
+              <option value="geometric">Geometric Charms</option>
+              <option value="letter">Letter & Alphabet Charms</option>
+              <option value="eco">Eco-Friendly Charms</option>
+              <option value="other">Other / Custom Design</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="quantity">Estimated Quantity *</label>
+              <select id="quantity" name="quantity" required>
+                <option value="">Select quantity...</option>
+                <option value="100-500">100 - 500 pieces</option>
+                <option value="500-1000">500 - 1,000 pieces</option>
+                <option value="1000-5000">1,000 - 5,000 pieces</option>
+                <option value="5000+">5,000+ pieces</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="timeline">Timeline</label>
+              <select id="timeline" name="timeline">
+                <option value="">Select timeline...</option>
+                <option value="urgent">Urgent (within 2 weeks)</option>
+                <option value="standard">Standard (2-4 weeks)</option>
+                <option value="flexible">Flexible (1+ months)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Project Details *</label>
+            <textarea id="message" name="message" placeholder="Describe your project: style preferences, colors, materials, branding requirements, reference images (you can share links), and any other details..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width:100%">Send Inquiry →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">👜 Jamie Bag Charm</div>
+        <p>Premium custom leather bag charms for brands and boutiques worldwide.</p>
+        <div class="footer-social">
+          <a href="#" title="Instagram">📷</a>
+          <a href="#" title="Facebook">📘</a>
+          <a href="#" title="Pinterest">📌</a>
+          <a href="#" title="WhatsApp">💬</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <a href="products.html">Flower Charms</a>
+        <a href="products.html">Animal Charms</a>
+        <a href="products.html">Logo Charms</a>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="customization.html">Customization</a>
+        <a href="customization.html">OEM Service</a>
+        <a href="customization.html">Private Label</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About Us</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Jamie Bag Charm. All rights reserved.</span>
+      <span>Designed for premium brands worldwide.</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
