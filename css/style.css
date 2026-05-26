@@ -366,24 +366,12 @@ ul, ol { list-style: none; }
   box-shadow: var(--shadow-lg);
 }
 
-.hero-image-placeholder {
+.hero-img {
   width: 100%;
   aspect-ratio: 4/5;
-  background: linear-gradient(145deg, #E8DCC8 0%, #D4C4A8 30%, #C4A35A 60%, #8B6914 100%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-family: var(--font-heading);
-  font-size: 1.8rem;
-  text-align: center;
-  padding: 40px;
-}
-
-.hero-image-placeholder .charm-icon {
-  font-size: 5rem;
-  margin-bottom: 20px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .hero-float-card {
@@ -467,6 +455,14 @@ ul, ol { list-style: none; }
   color: white;
 }
 
+.feature-icon-img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  display: block;
+}
+
 .feature-card h3 {
   font-family: var(--font-heading);
   font-size: 1.15rem;
@@ -511,9 +507,15 @@ ul, ol { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 4rem;
   position: relative;
   overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .product-tag {
@@ -675,6 +677,13 @@ ul, ol { list-style: none; }
 .material-icon {
   font-size: 3rem;
   margin-bottom: 16px;
+}
+
+.material-icon-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
 }
 
 .material-card h3 {
